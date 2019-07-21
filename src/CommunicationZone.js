@@ -39,6 +39,7 @@ class CommunicationZone extends Component {
             }.bind(this), 3000);
             
         }  
+        this.cleanHistory()
       }
 
       dialogueEngine(){
@@ -51,7 +52,7 @@ class CommunicationZone extends Component {
             this.setState({
                 history : [...this.state.history, response]
             });
-        } else if (this.state.history.length <= 3 && this.state.value.length > 2) {
+        } else if (this.state.history.length <= 3 && this.state.disposable.length > 6) {
             let response = answersBasic[Math.floor(Math.random()*answersBasic.length)];
             this.setState({
                 history : [...this.state.history, response]
@@ -67,7 +68,18 @@ class CommunicationZone extends Component {
             
         }
         
-
+        cleanHistory(){
+            const tempHistory = this.state.history;
+            let newHistory = [];
+            if (this.state.history.length > 12) {
+                tempHistory.shift();
+                tempHistory.shift();
+                newHistory = tempHistory;
+                this.setState({
+                    history: newHistory,
+                }); 
+            }
+        }
 
   render() {
 
