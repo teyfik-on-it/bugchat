@@ -1,3 +1,28 @@
+# Schmiede.ONE Bugchat challenge!
+
+Welcome!
+
+This challenge is about an app that replicates one of the most sophisticated debugging methods: [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
+
+The app is a chatbot which responds to your messages but lets just say that the bot's level of intelligence isn't really production ready. Your job is to make the bot smarter.
+
+Here's a list of tasks that you can accomplish to make it cooler:
+
+1. Cleanup the code by moving the `dialogueEngine` to a dedicated file.
+2. Try to make the `dialogueEngine` smarter.
+3. Write a REST API (using the technology of your choice) to serve answers.
+4. Make the bot fetch the answers from the API.
+
+---
+
+**NOTE**
+
+You might run into an issue if you have a Mac since Node version 10 is required to run this app and higher versions cannot build the dependencies listed in the package.json.
+In case the app does not run on your version of node, you can [install nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+and add the node version to it.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
