@@ -8,14 +8,16 @@ The app is a chatbot which responds to your messages but lets just say that the 
 
 Here's a list of tasks (in no particular order) that you can accomplish to make it cooler:
 
-1. Cleanup the code by moving the `dialogueEngine` to a dedicated file.
-2. Try to make the `dialogueEngine` smarter.
-3. Have a list of other rubber ducks in a sidebar and have their chat history. (imagine whatsapp web)
+1. Clone the repo and run on your local.
+2. Refactor and optimize the code where you see fit.
+3. Write a REST API (using the technology of your choice) to serve the `dialogueEngine`.
+4. Make the bot fetch the answers from the API.
+5. Try to make the `dialogueEngine` "smarter".
+6. Have a list of other rubber ducks in a sidebar and have their chat history. (imagine whatsapp web)
 
    ![whatsapp screenshot](https://www.chip.de/ii/1/0/9/3/1/0/6/4/6/web_whatsapp-1d0159a68e13bb79.jpg)
 
-4. Write a REST API (using the technology of your choice) to serve answers.
-5. Make the bot fetch the answers from the API.
+You have **120 minutes**. Lets go!
 
 ---
 
