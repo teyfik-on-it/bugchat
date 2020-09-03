@@ -15,8 +15,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start:api": "./bin/app",
     "start": "react-scripts start",
+    "start:express": "./bin/app",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
