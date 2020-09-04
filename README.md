@@ -10,7 +10,7 @@ Here's a list of tasks (in no particular order) that you can accomplish to make 
 
 1. Clone the repo and run on your local.
 
-> If you prefer working with hooks, check out the branch `feature/hooked`
+> If you prefer working with class-based components, check out the branch `master`
 
 2. Refactor and optimize the code where you see fit.
 3. Write a REST API (using the technology of your choice) to serve the `dialogueEngine`.
