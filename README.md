@@ -9,21 +9,27 @@ The app is a chatbot which responds to your messages but lets just say that the 
 Here's a list of tasks (in no particular order) that you can accomplish to make it cooler:
 
 1. Clone the repo and run on your local.
+
+> If you prefer working with hooks, check out the branch `feature/hooked`
+
 2. Refactor and optimize the code where you see fit.
 3. Write a REST API (using the technology of your choice) to serve the `dialogueEngine`.
+
+> A express server is setup inside of the server folder. You can use it if you want to.
+
 4. Make the bot fetch the answers from the API.
 5. Try to make the `dialogueEngine` "smarter".
 6. Have a list of other rubber ducks in a sidebar and have their chat history. (imagine whatsapp web)
 
    ![whatsapp screenshot](https://www.chip.de/ii/1/0/9/3/1/0/6/4/6/web_whatsapp-1d0159a68e13bb79.jpg)
 
-You have **120 minutes**. Lets go!
+Lets go!
 
 ---
 
 **NOTE**
 
-You might run into an issue if you have a Mac since Node version 10 is required to run this app and higher versions cannot build the dependencies listed in the package.json.
+Node version 10 is required to run this app and higher versions cannot build the dependencies listed in the package.json.
 In case the app does not run on your version of node, you can [install nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 and add the node version to it.
 
