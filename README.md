@@ -11,7 +11,7 @@ Focus on [task 2.1](#Tasks) if you're applying for a front-end position. Focus o
 
 ## Prerequisites:
 1. Clone with Git (gets you extra mana) or you can download as zip (boring...)
-    > If you prefer working with hooks, check out the branch [`feature/hooked`](https://github.com/schmiedeone/bugchat/tree/feature/hooked)
+    > If you prefer working with class based components, check out the branch [`master`](https://github.com/schmiedeone/bugchat)
 2. Node v10+
 
 ## Tasks
