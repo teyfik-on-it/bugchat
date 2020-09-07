@@ -28,7 +28,7 @@ Lets go!
 
 ![whatsapp screenshot](https://www.chip.de/ii/1/0/9/3/1/0/6/4/6/web_whatsapp-1d0159a68e13bb79.jpg)
 
-## Tips for it making smarter
+## Tips for making it smarter
 
 1. You can employ a public API from a service like Wikipedia or StackOverflow to get answers to questions typed in the chatbox.
 2. Come up with an algorithm to interpret text (e.g. keywords) and give relevant answers.
