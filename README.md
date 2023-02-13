@@ -37,7 +37,8 @@ Lets go!
 
 **NOTE**
 
-Node version 10 is required to run this app and higher versions cannot build the dependencies listed in the package.json.
+Node version 10 is required to run this app and higher versions might not be able to build the dependencies listed in the package.json.
+First try with your version of node (ignore make errors and just try to start the app once installation is done).
 In case the app does not run on your version of node, you can [install nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 and add the node version to it.
 
