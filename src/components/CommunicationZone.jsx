@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import useChatContext from '../hooks/useChatContext';
 import ChatZone from './ChatZone';
+import './Communicationzone.css';
 import ContactWindow from './ContactWindow';
 import InputZone from './InputZone';
 
 const CommunicationZone = () => {
+  const { activeChat } = useChatContext();
   const [state, setState] = React.useState({
     value: '',
     disposable: '',
@@ -100,7 +102,7 @@ const CommunicationZone = () => {
   return (
     <div className="chatHost innerShadow">
       <ContactWindow />
-      <ChatZone chatItem={state.history} />
+      <ChatZone chatItem={activeChat.history} />
       <InputZone
         handleChange={handleChange}
         handleSubmit={handleSubmit}

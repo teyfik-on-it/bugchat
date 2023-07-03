@@ -1,0 +1,6 @@
+.chatList {
+  min-height: 80vh;
+  min-width: 240px;
+  max-height: 95vh;
+  overflow-y: auto;
+}
